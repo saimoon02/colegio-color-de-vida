@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: colegio-color-de-vida
+    env: php
+    plan: free
+    buildCommand: ""
+    startCommand: "php -S 0.0.0.0:10000 -t ."
+    envVars:
+      - key: DB_HOST
+        value: localhost
+      - key: DB_NAME
+        value: color_de_vida
+      - key: DB_USER
+        value: root
+      - key: DB_PASS
+        value: ""
+      - key: APP_ENV
+        value: production
+
+databases:
+  - name: color-de-vida-db
+    plan: free
+    databaseName: color_de_vida
+    user: admin

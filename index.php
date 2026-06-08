@@ -47,9 +47,6 @@ if (isset($_SESSION['usuario_id'])) {
                     <i class="fas fa-sign-in-alt"></i> Iniciar Sesión
                 </button>
             </form>
-            <div style="text-align:center;margin-top:20px;font-size:0.85rem;color:#888;">
-                <p><strong>Usuario:</strong> admin | <strong>Contraseña:</strong> password</p>
-            </div>
         </div>
     </div>
 </body>
