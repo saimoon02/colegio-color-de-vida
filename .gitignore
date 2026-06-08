@@ -21,3 +21,7 @@ vendor/
 tmp/
 temp/
 .cache/
+
+# Vercel
+.vercel
+api/php.ini

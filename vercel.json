@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "framework": null,
+    "functions": {
+        "api/*.php": {
+            "runtime": "vercel-php@0.7.0",
+            "maxDuration": 30,
+            "memory": 256
+        }
+    },
+    "routes": [
+        { "src": "/css/(.*)",   "dest": "/css/$1" },
+        { "src": "/js/(.*)",    "dest": "/js/$1" },
+        { "src": "/(.+)",       "dest": "/api/index.php" }
+    ],
+    "env": {
+        "APP_NAME": "Colegio Color de Vida",
+        "APP_ENV": "production"
+    }
+}

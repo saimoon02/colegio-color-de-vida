@@ -1,0 +1,7 @@
+database.sql
+README.md
+.git
+.gitignore
+modules/
+*.md
+tmp/
