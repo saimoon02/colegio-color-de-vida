@@ -1,0 +1,23 @@
+# Configuración local con credenciales
+includes/db.local.php
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vendor (si se usa composer)
+vendor/
+
+# Temp files
+tmp/
+temp/
+.cache/
